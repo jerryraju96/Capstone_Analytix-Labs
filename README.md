@@ -14,3 +14,4 @@ into a SQL database, import to HDFS/Hive using Sqoop, and perform analysis using
 5. Loading Data in Spark
 6. Analysis using SparkSQL and Pandas
 7. Modeling using SparkML
+8. Design Pipelines
