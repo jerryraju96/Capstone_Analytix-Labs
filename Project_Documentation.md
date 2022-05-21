@@ -228,7 +228,7 @@ select sex,count(no_of_projects) from Data group by sex'
 
 Load the Data in Pyspark and Do the Ml Analysis and Modeling -
 
-Refer to- ./https://github.com/jerryraju96/Employee_Data_Analysis/blob/main/Spark%20EDA%20and%20ML%20Model.ipynb./
+Refer to- ./ https://github.com/jerryraju96/Employee_Data_Analysis/blob/main/Spark%20EDA%20and%20ML%20Model.ipynb ./
 
 # Outputs Of Analysis
 
