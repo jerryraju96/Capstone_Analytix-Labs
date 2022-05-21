@@ -310,15 +310,21 @@ No of projects based on gender
 
 
 ## ML Model Results
+All the basic steps for building the model were implemented as result as follows
+Logistic Regression was used to predict the employee data[predict he/she will leave or not]
+The model is giving  90% correct results
+![ML Model](https://user-images.githubusercontent.com/71822780/169647171-b520bf19-665f-453d-b0d4-2a038437527b.png)
 
 
 ## Challenges faced
  
 Issue with transfering Data, Server Issues
 
+
 ## Next Steps
 
 Improve the predictive model with Feature Engineering, Outlier Analysis
+Improve the accuracy
 
 
 
