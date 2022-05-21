@@ -1,0 +1,38 @@
+Titles
+-
+title_id PK int
+Title string
+
+Employees
+--
+emp_no PK int
+emp_titles_id string FK -< Titles.title_id
+birth_date date
+first_name string
+last_name string
+sex string
+hire_date date
+no_of_projects int
+Last_performance_rating string
+left bool
+Last_date date
+
+Salaries
+---
+emp_no bigint FK >- Employees.emp_no 
+Salary bigint
+
+Departments
+----
+dept_no PK string
+dept_name string
+
+Department_Managers
+-----
+dept_no string FK >- Departments.dept_no 
+emp_no int FK >- Employees.emp_no
+
+Department_Employees
+------
+emp_no int FK >- Employees.emp_no
+dept_no string FK >- Departments.dept_no
