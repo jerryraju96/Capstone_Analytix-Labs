@@ -156,9 +156,9 @@ hadoop fs -put /home/anabig114239/salaries_j.avsc /user/anabig114239/capstone1/s
 ## 3 Creatig Table in hive
 
 ```
-hive -f hive_commands.sql
+hive -f hive_commands.hql
 ```
-### hive_commands.sql
+### hive_commands.hql
 
 ```
 drop table if exists departments_j;
